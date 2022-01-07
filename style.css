@@ -1,0 +1,23 @@
+
+.argument {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+}
+.argue-btn {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.argue-btn > h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.argue-btn > button {
+    margin: 0 auto;
+    height: 50px;
+    width: 100px;
+}
