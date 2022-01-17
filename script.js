@@ -47,3 +47,14 @@ submitBtn.addEventListener("click", function () {
     }
     
 })
+
+//Problem 4
+let sphereSubmitBtn = document.getElementById("sphere-submit")
+sphereSubmitBtn.addEventListener("click", function () {
+    let radius = document.getElementById("radius").value
+    let volume = (4 / 3) * Math.PI * Math.pow(radius, 3)
+    volume = volume.toFixed(2)
+    document.getElementById("volume").value = volume
+    console.log(volume)
+})
+
